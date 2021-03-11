@@ -1,0 +1,68 @@
+.Navigation{
+  padding-top: 0;  
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;  
+  text-align: center;  
+  background-color: black;
+  justify-content: space-around;
+  min-height: 20vh;
+
+}
+.container1{
+  padding: 20px;
+ }
+
+.container{
+ padding: 20px;
+}
+.card1{
+  padding: 20px;
+  position: relative;
+  display: flexbox;
+  margin-left: auto;
+  margin-right: inherit;
+  flex-direction:row;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+.centre{
+  align-items: center;
+ 
+}
+.BlogSection{
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+
+.blog{
+
+ display: flex;  
+ justify-content: space-around; 
+ flex-wrap: wrap;
+ padding: 20px;
+ flex: 0.5;
+ box-sizing: border-box;
+ 
+}
+
+.Heading{
+  color: white;
+}
+
+
+
+.Links{
+  display:flex;
+  justify-content: space-around;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
