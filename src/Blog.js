@@ -3,6 +3,7 @@ import blog from "./blog.png";
 import './Nav.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
+import wall5 from './wall5.jpg';
 
 const Blog=()=>{
   return(

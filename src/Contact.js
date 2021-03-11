@@ -5,6 +5,8 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import CardDeck from 'react-bootstrap/CardDeck';
 import './Nav.css';
 import {useState} from 'react';
+import Contact1 from './Contact.jpg';
+import wall4 from './wall4.jpg';
 
 function Contact(){
    let backcolor = ['blue','black'];
@@ -33,8 +35,9 @@ function Contact(){
    const [color3,changeCol3] = useState('turquoise');
    const [color4,changeCol4] = useState('violet');
   return(
-    <div  style={{backgroundColor:'white'}}>
-    <div className="card1" style={{backgroundColor:'white'}}>
+    <div style={{backgroundImage:`url(${Contact1})`}}>
+      <div  style={{backgroundColor:'white',backgroundImage:`url(${wall4})`}}>
+    <div className="card1" style={{backgroundColor:'white',backgroundImage:`url(${wall4})`}}>
      <Card onMouseEnter={()=>changeCol('white')} onMouseLeave={()=>changeCol('red')}style={{ width: '18rem',marginLeft:'auto',marginRight:'auto',flexDirection:'column',backgroundColor:color}}>
   <Card.Body>
     <Card.Title  style={{fontFamily:'serif',fontWeight:'bold'}}>SONAL RAO</Card.Title>
@@ -120,6 +123,10 @@ function Contact(){
       </div>
     </div>
     </div>
+
+
+    </div>
+   
   );
 }
 export default Contact;
