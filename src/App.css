@@ -3,5 +3,40 @@
 
 }
 
+.Cont{
+    background: linear-gradient(-45deg,#ee7752,#ec77a6,#d0dbdf,#23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  @keyframes gradient {
+    0%{
+        background-position: 0%-50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+  }
 
+  .Test{
+    background: linear-gradient(-45deg,cyan,#72bb70,#f377ce,#d6ff42);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  @keyframes gradient {
+    0%{
+        background-position: 0%-50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+  }
+
+
+  
 

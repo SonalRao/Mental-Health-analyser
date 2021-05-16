@@ -2,42 +2,20 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import ListGroupItem from 'react-bootstrap/ListGroupItem';
 import ListGroup from 'react-bootstrap/ListGroup';
-import CardDeck from 'react-bootstrap/CardDeck';
 import './Nav.css';
 import {useState} from 'react';
-import Contact1 from './Contact.jpg';
-import wall4 from './wall4.jpg';
+import './App.css';
 
 function Contact(){
-   let backcolor = ['blue','black'];
-   let cardcolor = ['red','yellow','springgreen','turquoise','violet'];
-   //setInterval(randomisebackground,0.00001);
-   //setInterval(randomisecardcolor,0.0000000001);
-    //function  randomisebackground(){
-    //for(let i= 1;i>=0;i--){
-        //  let j = Math.floor(Math.random()*(i+1));
-          //let temp1 = backcolor[i];
-          //backcolor[i] = backcolor[j];
-          //backcolor[j] = temp1;
-    //}      
-   //}
-   //function  randomisecardcolor(){
-    //for(let i= 4;i>=0;i--){
-         // let j = Math.floor(Math.random()*(i+1));
-          //let temp2 = cardcolor[i];
-          //cardcolor[i] = cardcolor[j];
-          //cardcolor[j] = temp2;
-    //}      
-   //}  
    const [color,changeCol] = useState('red');
    const [color1,changeCol1] = useState('yellow');
    const [color2,changeCol2] = useState('springgreen');
    const [color3,changeCol3] = useState('turquoise');
    const [color4,changeCol4] = useState('violet');
   return(
-    <div style={{backgroundImage:`url(${Contact1})`}}>
-      <div  style={{backgroundColor:'white',backgroundImage:`url(${wall4})`}}>
-    <div className="card1" style={{backgroundColor:'white',backgroundImage:`url(${wall4})`}}>
+    <div className="Cont">
+      <div>
+    <div>
      <Card onMouseEnter={()=>changeCol('white')} onMouseLeave={()=>changeCol('red')}style={{ width: '18rem',marginLeft:'auto',marginRight:'auto',flexDirection:'column',backgroundColor:color}}>
   <Card.Body>
     <Card.Title  style={{fontFamily:'serif',fontWeight:'bold'}}>SONAL RAO</Card.Title>
@@ -123,10 +101,7 @@ function Contact(){
       </div>
     </div>
     </div>
-
-
     </div>
-   
   );
 }
 export default Contact;

@@ -25,7 +25,7 @@ const HomePage = () => {
                         <Carousel.Item>
                               <img
                                     className="d-block w-100"
-                                    src={array[0]}
+                                    src={array[1]}
                                     alt="First slide"
                               />
                               
@@ -33,7 +33,7 @@ const HomePage = () => {
                         <Carousel.Item>
                               <img
                                     className="d-block w-100"
-                                    src={array[1]}
+                                    src={array[0]}
                                     alt="Second slide"
                               />
 
