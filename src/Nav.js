@@ -1,24 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './Nav.css';
-import img1 from './HomePage.jpg';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
-//function Nav(){
- //return(
-   //  <div className="Navigation">
-     //   <nav >
-       //   <h1 className="Heading">Mental Health Analyzer</h1>   
-         // <ul className="Links">
-           //<Link to="/Test"><ol>Take a Test</ol></Link>
-           //<Link to="/About"><ol>About Us</ol></Link>
-           //<Link to="/Contact"><ol>Contact Us</ol></Link>
-           //<Link to="/Blog"><ol>Blog</ol></Link>
-          //</ul>
-        //</nav>
-     //</div>
- //)
-//}
 function Nav(){
   return(
     <div>

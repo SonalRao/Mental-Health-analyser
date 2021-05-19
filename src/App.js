@@ -4,7 +4,6 @@ import Nav from './Nav';
 import {Switch,BrowserRouter,Link} from 'react-router-dom';
 import {Route} from 'react-router-dom';
 import './Nav.css';
-import img from './wallpaper.jpg';
 import TakeATest from './TakeATest';
 import About from './About';
 import Contact from './Contact';

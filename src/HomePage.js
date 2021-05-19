@@ -1,6 +1,4 @@
 import React from 'react';
-import img from './wallpaper.jpg';
-import img1 from './HomePage.jpg'
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import wall1 from './wall1.jpg';
 import wall2 from './wall2.jpg';
