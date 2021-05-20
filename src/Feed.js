@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert';
 import back1 from './back1.jpg';
 import './App.css';
-import { MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn, MDBCard, MDBCardBody } from 'mdbreact';
+
 
 const FormPage = () => {
   return (
